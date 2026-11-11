@@ -55,7 +55,7 @@ STAGE_CONFIG = {
 }
 
 st.set_page_config(
-    page_title="إدارة مختبر الأسنان",
+    page_title="إدارة مختبر تيتانيوم ",
     page_icon="🦷",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -425,7 +425,7 @@ def require_user_login(role: str) -> dict[str, Any] | None:
 
 def main() -> None:
     with st.sidebar:
-        st.title("🦷 مختبر الأسنان")
+        st.title("🦷 مختبر تيتانيوم")
         st.caption("إدارة التوزيع المركزي والتتبع المتقدم")
         selected_role = st.radio(
             "اختر مساحة العمل",
